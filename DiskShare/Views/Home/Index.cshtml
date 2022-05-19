@@ -1,0 +1,16 @@
+﻿@model AppUser
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    @if (!SignInManager.IsSignedIn(User))
+    {
+        <h1 class="display-4">Witaj! Zarejestruj lub zaloguj się aby móc w pełni korzystać z serwisu</h1>
+    }
+    else
+    {
+        <h1 class="display-4">Witaj @Model.FirstName @Model.SurName!</h1>
+    }
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
