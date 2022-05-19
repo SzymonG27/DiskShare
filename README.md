@@ -1,14 +1,14 @@
-#DiskShare v1.0
+# DiskShare v1.0
 
 DiskShare is an ASP.NET 6.0 application that allows you to create and manage an internet drive without using a dataabase for files. You can also share the drive for another user
 
 
-##Why did I made this application?
+## Why did I made this application?
 
 A lot of web application like zippyshare allows to share only one file. I wanted to make an application that user can collect a lot of files in web storage, and another user which has a link to the disk can choose what file he wants to download.
 
 
-##Instalation
+## Instalation
 
 All you had to do for correct working this application is create a database from context for users.
 
